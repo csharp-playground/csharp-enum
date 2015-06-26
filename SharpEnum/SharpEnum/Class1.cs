@@ -17,6 +17,8 @@ namespace SharpEnum
                 case true: return "Yes";
                 case false:  return "No";
             }
+
+            return "No";
         }
         public String GetValue1(Letter a)
         {

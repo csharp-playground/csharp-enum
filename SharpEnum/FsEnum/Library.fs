@@ -7,12 +7,11 @@ type Class1() =
 
 
 module Test =
-    let a = SharpEnum.Character.A
+    let a = SharpEnum.Letter.A
 
     let value = 
         match a with
-        | Character.A -> "A"
-        | Character.B -> "B"
-        | Character.C -> "C"
+        | Letter.A -> "A"
+        | Letter.B -> "B"
         | _ -> "D"
 
