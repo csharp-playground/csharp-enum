@@ -1,0 +1,35 @@
+﻿```xml
+<Manifest>
+  <AgentType>Mac_Cocoa</AgentType>
+  <Resources />
+  <TimeoutSeconds>29</TimeoutSeconds>
+</Manifest>
+```
+```csharp
+// Sketch your next great idea!
+
+
+enum Letter {
+	A = 1,
+	B = 2,
+};
+
+var la = Letter.A;
+var lb = Letter.B;
+la.GetType().Name;
+(int) la == 1
+(int) lb == 2
+
+// cast
+var l100 = (Letter)100;
+l100.GetType().Name;
+(int)l100 == 100
+
+// parse
+var l200 = Letter.A;
+Enum.TryParse("200", out l200);
+l200.GetType().Name;
+(int)l200 == 200;
+
+```
+
