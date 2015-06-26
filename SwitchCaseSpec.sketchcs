@@ -1,0 +1,28 @@
+﻿```xml
+<Manifest>
+  <AgentType>Mac_Cocoa</AgentType>
+  <Resources />
+  <TimeoutSeconds>0</TimeoutSeconds>
+</Manifest>
+```
+```csharp
+// Sketch your next great idea!
+
+enum FileType { Pdf, Png };
+
+var type = FileType.Pdf;
+
+// OK, use of unsisigned local variable `message`
+
+switch(type) 
+{
+	case FileType.Pdf :
+		var message = "Hello ";
+		message += "document";
+		break;
+	case FileType.Png:
+		message += "image";
+		break;
+}
+```
+
